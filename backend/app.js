@@ -19,7 +19,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
 /// CORS headers
-
+/*
 app.use((req, res, next) => {
     res.setHeader("Access-Control-Allow-Origin", "*");
     res.setHeader(
@@ -32,7 +32,7 @@ app.use((req, res, next) => {
     );
     next();
   });
-  
+  */
 
 /// connect to mongoDB
 
